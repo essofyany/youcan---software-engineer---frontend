@@ -1,0 +1,48 @@
+:root {
+  /* Color Palette */
+  --color-black: #0e121b;
+  --color-black-muted: #525866;
+  --color-disabled-300: #cacfd8;
+  --color-soft-400: #99a0ae;
+  --color-soft-200: #e1e4ea;
+  --color-weak-50: #f5f7fa;
+  --color-blue: #335cff;
+  --color-red: #fb3748;
+  --color-yellow: #f6b51e;
+
+  /* Border Radius */
+  --radius-full: 999px;
+  --radius-24: 24px;
+  --radius-10: 10px;
+  --radius-8: 8px;
+  --radius-6: 6px;
+  --radius-4: 4px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
